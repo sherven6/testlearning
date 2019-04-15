@@ -1,0 +1,129 @@
+{
+  "uid" : "8c8074a0b2b61a63",
+  "name" : "test_click",
+  "fullName" : "scripts.test_setup&teardown_clas.testPy#test_click",
+  "historyId" : "7da9c04ddf09d8639f72800d8f297995",
+  "time" : {
+    "start" : 1554984683424,
+    "stop" : 1554984683424,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1554984683330,
+      "stop" : 1554984683330,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击",
+      "time" : {
+        "start" : 1554984683424,
+        "stop" : 1554984683424,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "b5252d14cc9a4d4d",
+      "name" : "log",
+      "source" : "b5252d14cc9a4d4d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "2afa40eecbd67282",
+      "name" : "stdout",
+      "source" : "2afa40eecbd67282.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "dc0258fb644d8142",
+      "name" : "stderr",
+      "source" : "dc0258fb644d8142.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1554984683440,
+      "stop" : 1554984683440,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_setup&teardown_clas"
+  }, {
+    "name" : "subSuite",
+    "value" : "testPy"
+  }, {
+    "name" : "host",
+    "value" : "Zsherven"
+  }, {
+    "name" : "thread",
+    "value" : "7236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_setup&teardown_clas"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8c8074a0b2b61a63.json",
+  "parameterValues" : [ ]
+}

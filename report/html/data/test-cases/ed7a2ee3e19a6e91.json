@@ -1,0 +1,79 @@
+{
+  "uid" : "ed7a2ee3e19a6e91",
+  "name" : "test_qwe",
+  "fullName" : "scripts.test_setup&teardown_func#test_qwe",
+  "historyId" : "ce59736fbf8aae4ce999d7985bba3971",
+  "time" : {
+    "start" : 1554984683487,
+    "stop" : 1554984683487,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9776f518c0ead06d",
+      "name" : "log",
+      "source" : "9776f518c0ead06d.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "e010400f77b0af85",
+      "name" : "stdout",
+      "source" : "e010400f77b0af85.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "c649efc722691921",
+      "name" : "stderr",
+      "source" : "c649efc722691921.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_setup&teardown_func"
+  }, {
+    "name" : "host",
+    "value" : "Zsherven"
+  }, {
+    "name" : "thread",
+    "value" : "7236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_setup&teardown_func"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ed7a2ee3e19a6e91.json",
+  "parameterValues" : [ ]
+}
