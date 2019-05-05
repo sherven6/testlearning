@@ -1,0 +1,84 @@
+{
+  "uid" : "17204027c6cffd32",
+  "name" : "test_send_message",
+  "fullName" : "scripts.test_message.TestMessage#test_send_message",
+  "historyId" : "0877d7dd23c6156b6c84a641c8c624a3",
+  "time" : {
+    "start" : 1556292886053,
+    "stop" : 1556292901963,
+    "duration" : 15910
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "13a0c1e9ddd7abdd",
+      "name" : "log",
+      "source" : "13a0c1e9ddd7abdd.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "68470ce61620a8e7",
+      "name" : "stdout",
+      "source" : "68470ce61620a8e7.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "76b5eb454130d00",
+      "name" : "stderr",
+      "source" : "76b5eb454130d00.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_message"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMessage"
+  }, {
+    "name" : "host",
+    "value" : "Zsherven"
+  }, {
+    "name" : "thread",
+    "value" : "16648-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_message"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17204027c6cffd32.json",
+  "parameterValues" : [ ]
+}

@@ -1,14 +1,17 @@
 from appium import webdriver
 
-desired_caps = {
-    "platformName": "android",
-    "platVersion": 8,
-    "deviceName": "sherven",
-    "automationName": "UIautomator2",
-    "appPackage": "com.android.settings",
-    "appActivity": ".Settings"
-}
 
+# 将需要重复使用的初始化driver抽取到base_driver中
+def init_driver():
+    desired_caps = {
+        "platformName": "android",
+        "platformVersion": 8,
+        "deviceName": "sherven",
+        "appPackage": "com.android.messaging",
+        "appActivity": ".ui.conversationlist.ConversationListActivity",
+        "resetKeyboard": True,
+        "unicodeKeyboard": True
 
-def initDriver():
+    }
+
     return webdriver.Remote("http://localhost:4723/wd/hub", desired_caps)

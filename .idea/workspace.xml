@@ -2,8 +2,183 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4ae83cd-fb4a-4e67-bac2-da8a32af1178" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/message_data.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/message_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_message.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action/setswip.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/0531bced-1346-46c7-abb7-967a0b993e02-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/06593e43-24b4-49b3-b084-721dbaa6b7da-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_action.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/07aad6a9-07f7-43f8-8f27-6761fc796eea-attachment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_yml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/09baeb0f-4835-4416-adea-e0337e70b6bc-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/0b5a7dc1-ec57-47b4-862f-1fbaf768d6cf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/100fc20b-eb4c-4812-870f-c883c0741816-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/14b8519d-e519-4445-a5b7-73e2e67f7def-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1704002c-5522-4256-a2a5-0c89be2e1c6b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1913e649-2e9c-4bf6-9049-f2361ca1695a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/197ee08b-cf8b-4b27-9605-0c2690691618-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/1eb34491-a5b8-4aa6-8972-7efbe304651e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/22f729b5-1c80-4dd6-9867-11d313a09efa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/232d6f59-f244-424a-9357-56ccf7c6db67-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/23fa8d8b-d303-49f3-908f-1d8a3253ffcc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/248641c8-71af-43c1-b054-ec983cd3e993-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2649bbd0-49bd-432b-8a26-6447945173b6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/27e1bc61-aac9-4938-bedb-8cad981e3dad-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/28aa7647-50e8-4279-a55e-8317f8599bf2-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/29ff8f31-890d-43c7-af19-6c1097c30128-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/33dd1933-5009-4511-8aa4-ab97dc7ed3d5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/3b78e959-4723-46fd-ace7-9f8a7b9d1486-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/422dfa58-b7dc-4ed6-a990-d98c1d02eaca-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/43b5bb5a-ba69-4129-bcb5-f8be6e8b6736-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/479765c7-d483-4615-9707-9fa13232846d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/49c9833e-d607-4bba-8045-3b7b50641796-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/50ba47b0-495a-417a-bafb-c4aadca1ddd8-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/5250d06a-fbee-4be5-8b53-42b2016c9790-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/5464fd4f-2a3d-4f56-b0cb-8f0e2658d0a4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/55124624-a08d-46e7-861f-0eca9839daa4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/5e7c13a9-a0aa-4d41-abb0-ec7d0d704bd5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/5ef95ff7-81a8-41ee-90a3-b5eca4ff3ac7-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/63413f2e-d546-48e5-9471-5749c017e567-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/65a8fb6a-9c64-4e9d-a243-dbf89df8fafa-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/6642bf05-b8a2-470d-9da1-5a320a690202-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/729c07f9-4b64-42d4-bf3e-6fe3931a15f2-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/773096d5-806b-4569-b311-9609257aff7e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/7734226b-01f0-428f-bcd7-3dacbc7905d0-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/7878f092-887b-4139-a2c3-7fed3b0b8a0f-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/7c15dccd-33e9-4260-a5e3-ef3ce581d8c1-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/82bff1fc-e491-4a13-96fb-39ed5ac9959a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/86556066-27e3-4bf4-9a6a-ad061a45d393-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/88610860-9c1e-4597-97dd-75ead5ddf003-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/8e6181e2-c48f-44b6-a59d-d06f1397e610-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/9490e5a1-226a-46c6-b958-49f778617f44-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/a473a69f-c051-4381-96c8-5d1419cddd95-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/a7c5c1fe-b3c5-4ebb-af15-5234007be499-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/aa4eeb1f-8e63-4847-a8d3-2060620b0d4a-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/ac3f61f4-24a0-4065-969a-8c492b65bd07-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/adc2bbab-fb64-426c-8c3a-943ea70a7812-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/af966646-082c-430c-a8cf-8434543e2497-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/assets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/be105c13-37e4-4bce-92ff-d6d2e08cf33b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c35995d0-6f3f-4fff-a718-74fce0819824-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c38e3638-7776-4146-8a17-d561656e6422-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c5a2cbe7-e18e-48b8-8591-001d10ce4d6e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c5a64974-92bc-4437-930e-890347cf179e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c6f82522-7180-488d-9a45-f0e54e304b42-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/c81ffe53-f12e-444e-967f-4f90903f6e46-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/cae507fc-2630-46f1-adda-9b109487cf8c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/cb39c638-1168-4934-bcf0-f48a150e7bb9-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/ce40c1ed-fb0b-40fa-9659-737c2d6bea0d-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/d2af9f64-f6be-4f4a-a391-c86fb015d4b1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/d388f146-7b12-41dd-95be-6df0601090b5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/d9e57482-47b5-4121-8b82-a254fb72efff-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/d9f97830-c8f5-474e-aa4a-59c68d035879-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/f0594db7-3637-4e8f-b8b9-4aef7a38cf2c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/f10e279e-0633-4efa-8161-3a99aa664d23-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/106a3bd6c9f7654d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/10f756c77c16cc0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/10fe748e270d5738.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/110b36e70fb2a15b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/232fc90e4a1019cf.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/2afa40eecbd67282.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/2fd926989dd5198d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/37e06c7fe15a5084.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/38d29025d45f4a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/470b6bbf4349210e.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/4c9ea0fe3cb81544.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/4cf7490ee1dec255.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/4de3e1bea1087182.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/4eca8f0ad05f45c5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/4f0dcbe558d63b02.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/5215b5169d43773a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/552de762a633158a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/65f4b1c01264c017.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/68360fc47a511db2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/6a01f8437df2956.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/6a3d320d894f44dd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/6b1bbdf0f1a125ff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/7c90f437cc786235.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/7ca9a314933ce400.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/8754b500acedf28.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/87bc07ffadd75d06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/8f408daf0323e88f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/9776f518c0ead06d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/a150feeb8a14756f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/a2de3e12807e06a3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/a4583a455c92159c.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/a4d66978e8f824c8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/ad58440eb5831ea8.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/b5252d14cc9a4d4d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/b5670cdc298f9b83.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/bc88493256457eb9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/c02fbb222c2fe0c9.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/c649efc722691921.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/c92ad25f19f4d682.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/cdba1f34e8c1e211.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/dc0258fb644d8142.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/e010400f77b0af85.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/e4f4ce77b0fe259a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/ed5b8eb865d1507e.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/ee6540b185970c25.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/efe05b4a60a95d9e.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/f9ed1217bfe8b2e2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/attachments/faa09556f0589a3a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/1416e8628bce6b50.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/469f072c264f02b6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/5cedb7f113cda934.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/7a851921a9571ec5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/7abea8edcfdb94e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/86407d0a907489e0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/865579a03645a5ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/8c8074a0b2b61a63.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/8f13e206cfefbf47.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/9343f89a7ff87062.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/ad75e5542b1b739.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/bf76aa6d1f5b0587.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/c71bcabc9b81a743.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/cbc56b000b9cbdc3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/ed7a2ee3e19a6e91.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/test-cases/fc12d9a074166bcf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/html/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_appium2.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_appium2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,33 +186,100 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="appium2" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/test_appium2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/base/base_driver.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="484">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/action/setswip.py">
+        <entry file="file://$PROJECT_DIR$/base/base_driver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/test_setup&amp;teardown_clas.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/base_action.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/message_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
-                <element signature="e#0#60#0" expanded="true" />
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="23" column="68" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="68" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/test_setup&amp;teardown_func.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/test_message.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/base_yml.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -45,8 +287,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pytest.ini">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            <state relative-caret-position="132">
+              <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -81,20 +323,27 @@
         <option value="$PROJECT_DIR$/appium2.py" />
         <option value="$PROJECT_DIR$/setup&amp;teardown使用.py" />
         <option value="$PROJECT_DIR$/scripts/test_setup&amp;teardown.py" />
-        <option value="$PROJECT_DIR$/scripts/test_appium2.py" />
         <option value="$PROJECT_DIR$/scripts/test_setup&amp;teardown_func.py" />
-        <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/scripts/test_setup&amp;teardown_clas.py" />
         <option value="$PROJECT_DIR$/action/setswip.py" />
+        <option value="$PROJECT_DIR$/scripts/test_login.py" />
+        <option value="$PROJECT_DIR$/page/login_page.py" />
+        <option value="$PROJECT_DIR$/data/message_data.yml" />
+        <option value="$PROJECT_DIR$/base/base_yml.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/base/base_driver.py" />
+        <option value="$PROJECT_DIR$/base/base_action.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/page/message_page.py" />
+        <option value="$PROJECT_DIR$/scripts/test_appium2.py" />
+        <option value="$PROJECT_DIR$/scripts/test_message.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="y" value="8" />
-    <option name="width" value="1158" />
-    <option name="height" value="1010" />
+    <option name="x" value="288" />
+    <option name="width" value="1386" />
+    <option name="height" value="1011" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -107,21 +356,6 @@
             <path>
               <item name="appium2" type="b2602c69:ProjectViewProjectNode" />
               <item name="appium2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium2" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium2" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium2" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -151,8 +385,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.setswip">
-    <configuration name="appium2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.demo">
+    <configuration name="base_driver" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="appium2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/base_driver.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="base_yml" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="appium2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/base" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/base_yml.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="appium2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -164,7 +440,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\zeng\PycharmProjects\appium2\scripts\test_appium2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,70 +449,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytestp1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="appium2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\zeng\PycharmProjects\appium2\scripts\test_setup&amp;teardown_func.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="setswip" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="appium2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/action" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/action/setswip.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="setup&amp;teardown使用" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="appium2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\zeng\PycharmProjects\appium2\scripts\test_setup&amp;teardown_clas.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_setup&amp;teardown_clas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_appium2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="appium2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,7 +461,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/test_setup&amp;teardown_clas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/test_appium2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_message" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="appium2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/test_message.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -259,11 +493,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.setswip" />
-        <item itemvalue="Python.test_setup&amp;teardown_clas" />
-        <item itemvalue="Python.setup&amp;teardown使用" />
-        <item itemvalue="Python.appium2" />
-        <item itemvalue="Python.pytestp1" />
+        <item itemvalue="Python.demo" />
+        <item itemvalue="Python.test_appium2" />
+        <item itemvalue="Python.test_message" />
+        <item itemvalue="Python.base_driver" />
+        <item itemvalue="Python.base_yml" />
       </list>
     </recent_temporary>
   </component>
@@ -290,21 +524,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="8" width="1158" height="1010" extended-state="0" />
-    <editor active="true" />
+    <frame x="288" y="0" width="1386" height="1011" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23839286" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984227" visible="true" weight="0.19807121" />
+      <window_info id="Structure" order="1" sideWeight="0.50157726" side_tool="true" weight="0.1406744" />
+      <window_info id="Favorites" order="2" sideWeight="0.50157726" side_tool="true" weight="0.1406744" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32912844" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32798165" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3105023" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39954337" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32912844" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4992658" weight="0.32912844" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32990867" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4992658" visible="true" weight="0.345496" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007342" side_tool="true" weight="0.32912844" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32912844" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32912844" />
@@ -322,50 +555,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setup/teardown.py" />
     <entry file="file://$PROJECT_DIR$/report.html" />
-    <entry file="file://$PROJECT_DIR$/scripts/test_setup&amp;teardown_clas.py">
+    <entry file="file://$PROJECT_DIR$/action/setswip.py" />
+    <entry file="file://$PROJECT_DIR$/base/text.yaml" />
+    <entry file="file://$PROJECT_DIR$/data/message_data.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_setup&amp;teardown_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_appium2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/action/setswip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="484">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
           <folding>
-            <element signature="e#0#60#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base/base_driver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_setup&amp;teardown_clas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/message_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_setup&amp;teardown_func.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base_yml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_message.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
